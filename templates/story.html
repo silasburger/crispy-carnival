@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action='/words'>
+    <select name="stories">
+        {% for story in story_list %}
+        <option value="{{story}}">{{story}}</option>
+        {% endfor %}
+      </select>
+      <button>Submit</button>
+  </form>
+</body>
+</html>
