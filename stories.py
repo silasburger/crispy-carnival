@@ -30,21 +30,38 @@ class Story:
 
 # Here's a story to get you started
 
-long_long_ago = Story(
+story_list = {
+    'long_long_ago': Story(
         ["place", "noun", "verb", "adjective", "plural_noun"],
         """Once upon a time in a long-ago {place}, there lived a
            large {adjective} {noun}. It loved to {verb} {plural_noun}."""
-       )
-
-cave_battle = Story(
+       ),
+    'cave_battle': Story(
         ["place", "second_place", "third_place"],
         """ONCE IN A CAVE, A BATTLE OCCURED THERE, {place}. The cavemen who came from {second_place} battled the
            other cavemen who came from {third_place}. It was a bloody battle. Very bloody. The end"""
-       )
-
-catz = Story(
+       ),
+    'catz': Story(
         ["place", "noun", "verb", "adjective", "plural_noun","second_place", "second_noun", "second_verb", "second_adjective", "second_plural_noun"],
         """CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS """
        )
+}
+
+# long_long_ago = Story(
+#         ["place", "noun", "verb", "adjective", "plural_noun"],
+#         """Once upon a time in a long-ago {place}, there lived a
+#            large {adjective} {noun}. It loved to {verb} {plural_noun}."""
+#        )
+
+# cave_battle = Story(
+#         ["place", "second_place", "third_place"],
+#         """ONCE IN A CAVE, A BATTLE OCCURED THERE, {place}. The cavemen who came from {second_place} battled the
+#            other cavemen who came from {third_place}. It was a bloody battle. Very bloody. The end"""
+#        )
+
+# catz = Story(
+#         ["place", "noun", "verb", "adjective", "plural_noun","second_place", "second_noun", "second_verb", "second_adjective", "second_plural_noun"],
+#         """CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS CATS """
+#        )
 
 
